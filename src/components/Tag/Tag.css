@@ -1,0 +1,15 @@
+.home-select-tag {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.header-tag {
+    color: white;
+    font-size: 24px;
+    padding-left: 24px;
+    padding-right: 8px;
+}
+
+.header-tag:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.movie-card {
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.movie-card:hover {
+    cursor: pointer;
+    /* transform: scale(1.05); */
+    box-shadow: 0 0 24px rgba(255, 255, 255, 0.425);
+    transition: 0.3s;
+}
+
+.movie-card-img {
+    width: 240px;
+    height: 360px;
+    margin: 12px 0;
+}
+
+.movie-card-title {
+    text-align: center;
+    max-width: 240px;
+}
